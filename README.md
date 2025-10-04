@@ -1,2 +1,16 @@
-# Colonne
-MIPS-like 5-stage core processor, microcoded with minimal FPU, SIMD Coprocessor, Tiny-GPU (scalar ALU) and Caches.
+# MIPS-Lab VHDL
+
+A collection of didactic VHDL projects:
+- **MIPS-like 5-stage core** (visualizable, with tracing, forwarding, and hazards).
+- **Microcoded** MIPS-like variant (control via microcode ROM).
+- **Minimal FPU** (IEEE-754 single precision).
+- **SIMD Coprocessor** (8/16-bit).
+- **Tiny-GPU** (scalar ALU + simple scheduler).
+- **Caches** (I/D) and cache controller.
+- **SoC** with MMIO (UART, Timer, GPIO).
+
+## Quick Build (GHDL)
+```bash
+cd sim/run
+./build_sim.sh             # compile packages and the 5-stage core
+./run_core_mips5.sh        # run the TB and generate VCD/GTKW
