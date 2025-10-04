@@ -1,0 +1,23 @@
+v 4
+file . "../../rtl/pkg/pkg_types.vhd" "a94e4886d92aff89a204fd2a40388b0555680ba1" "20251004231137.413":
+  package pkg_types at 1( 0) + 0 on 13;
+file . "../../rtl/pkg/pkg_isa.vhd" "38f6318928063889189e5638ba2436b72a7a84a4" "20251004231137.520":
+  package pkg_isa at 1( 0) + 0 on 18;
+file . "../../rtl/mem/mem_dual.vhd" "d1b7c467c55a417aaaf9967148d62e4ca22912e6" "20251004231137.494":
+  entity mem_dual at 1( 0) + 0 on 16;
+  architecture rtl of mem_dual at 23( 574) + 0 on 17;
+file . "../../rtl/core_single/regfile.vhd" "b7dd4cd4b87fb83c9b99515c85e47c1e3b53ecc7" "20251004231137.561":
+  entity regfile at 1( 0) + 0 on 21;
+  architecture rtl of regfile at 18( 454) + 0 on 22;
+file . "../../rtl/core_single/alu.vhd" "e29994b32c275642ee990983c21bafebebd58e22" "20251004231137.587":
+  entity alu at 1( 0) + 0 on 23;
+  architecture rtl of alu at 14( 250) + 0 on 24;
+file . "../../rtl/core_single/control_simple.vhd" "e377d1ab54b9c6813227892e0483ff5be656f281" "20251004231137.534":
+  entity control_simple at 1( 0) + 0 on 19;
+  architecture rtl of control_simple at 19( 484) + 0 on 20;
+file . "../../rtl/core_single/core_single_top.vhd" "51abf052cbb5f4e050be4992c9c9700e86385a75" "20251004231137.426":
+  entity core_single_top at 1( 0) + 0 on 14;
+  architecture rtl of core_single_top at 14( 252) + 0 on 15;
+file . "tb_core_single.vhd" "422309d65b69160ee90f599a43be075ab15dbe8a" "20251004231137.393":
+  entity tb_core_single at 1( 0) + 0 on 11;
+  architecture tb of tb_core_single at 6( 100) + 0 on 12;
