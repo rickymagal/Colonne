@@ -8,9 +8,3 @@ A collection of didactic VHDL projects:
 - **Tiny-GPU** (scalar ALU + simple scheduler).
 - **Caches** (I/D) and cache controller.
 - **SoC** with MMIO (UART, Timer, GPIO).
-
-## Quick Build (GHDL)
-```bash
-cd sim/run
-./build_sim.sh             # compile packages and the 5-stage core
-./run_core_mips5.sh        # run the TB and generate VCD/GTKW
