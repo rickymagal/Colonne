@@ -1,0 +1,41 @@
+v 4
+file . "../../rtl/core_mips5/core_mips5_top.vhd" "026931cc6c5529cbe35af4a54473226075196d54" "20251005011353.758":
+  entity core_mips5_top at 5( 181) + 0 on 24;
+  architecture rtl of core_mips5_top at 18( 419) + 0 on 25;
+file . "../../rtl/core_mips5/ex_stage.vhd" "218ef6db89770cfc1fc0ff403ad754627140ee00" "20251005011353.677":
+  entity ex_stage at 12( 521) + 0 on 18;
+  architecture rtl of ex_stage at 43( 1553) + 0 on 19;
+file . "tb_core_mips5.vhd" "950fc285dd031c5721c302ca87cc79e59f4ba5e4" "20251005011353.590":
+  entity tb_core_mips5 at 1( 0) + 0 on 11;
+  architecture tb of tb_core_mips5 at 6( 99) + 0 on 12;
+file . "../../rtl/core_mips5/control_decode.vhd" "c09ef4c108da45c620618f21070a1a2aa13cebe8" "20251005011353.855":
+  entity control_decode at 1( 0) + 0 on 26;
+  architecture rtl of control_decode at 23( 772) + 0 on 27;
+file . "../../rtl/core_mips5/hazard_unit.vhd" "be6ef4b869496e541feedaaf628902aad62d4188" "20251005011353.629":
+  entity hazard_unit at 1( 0) + 0 on 14;
+  architecture rtl of hazard_unit at 21( 468) + 0 on 15;
+file . "../../rtl/core_mips5/forward_unit.vhd" "7d8d1502255b4fc30852d81b8aeaf463cc1aafa9" "20251005011353.654":
+  entity forward_unit at 9( 288) + 0 on 16;
+  architecture rtl of forward_unit at 25( 742) + 0 on 17;
+file . "../../rtl/core_mips5/wb_stage.vhd" "395867dd5de47c53a21d48d08090e654a0146858" "20251005011353.739":
+  entity wb_stage at 1( 0) + 0 on 22;
+  architecture rtl of wb_stage at 14( 311) + 0 on 23;
+file . "../../rtl/core_mips5/mem_stage.vhd" "982cd7dbf374dca2b72ca97ac555644f559e9202" "20251005011353.716":
+  entity mem_stage at 1( 0) + 0 on 20;
+  architecture rtl of mem_stage at 26( 727) + 0 on 21;
+file . "../../rtl/core_mips5/id_stage.vhd" "1f88c5089d381b27663a92c86457ad296e25fe0d" "20251005011353.554":
+  entity id_stage at 1( 0) + 0 on 4;
+  architecture rtl of id_stage at 32( 908) + 0 on 4;
+file . "../../rtl/core_mips5/if_stage.vhd" "4a69416d1b5c5a11ae5f686dc4fd42e5588f256b" "20251005011353.554":
+  entity if_stage at 1( 0) + 0 on 4;
+  architecture rtl of if_stage at 30( 594) + 0 on 4;
+file . "../../rtl/core_single/regfile.vhd" "b7dd4cd4b87fb83c9b99515c85e47c1e3b53ecc7" "20251005011353.881":
+  entity regfile at 1( 0) + 0 on 28;
+  architecture rtl of regfile at 18( 454) + 0 on 29;
+file . "../../rtl/mem/mem_dual.vhd" "d1b7c467c55a417aaaf9967148d62e4ca22912e6" "20251005011353.905":
+  entity mem_dual at 1( 0) + 0 on 30;
+  architecture rtl of mem_dual at 23( 574) + 0 on 31;
+file . "../../rtl/pkg/pkg_isa.vhd" "38f6318928063889189e5638ba2436b72a7a84a4" "20251005011353.554":
+  package pkg_isa at 1( 0) + 0 on 4;
+file . "../../rtl/pkg/pkg_types.vhd" "a94e4886d92aff89a204fd2a40388b0555680ba1" "20251005011353.613":
+  package pkg_types at 1( 0) + 0 on 13;
